@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Action from "./COMPONENTS/Action";
 import Comedy from "./COMPONENTS/Comedy";
