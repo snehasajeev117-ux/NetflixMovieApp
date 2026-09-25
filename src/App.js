@@ -4,6 +4,7 @@ import Comedy from "./COMPONENTS/Comedy";
 import Navbar from "./COMPONENTS/Navbar";
 import TrendingMovies from "./COMPONENTS/TrendingMovies";
 import Romance from "./COMPONENTS/Romance";
+import Horror from "./COMPONENTS/Horror";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <TrendingMovies/>
         <Action/>
         <Comedy/>
+        <Horror/>
         <Romance />
         
         
