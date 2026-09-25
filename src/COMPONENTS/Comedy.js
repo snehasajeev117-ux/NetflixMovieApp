@@ -17,7 +17,7 @@ function Comedy()
 
   return (
     <div>
-        <h2 style={{color: "white", fontSize: "20px", fontWeight: "900"}}>MY COMEDY MOVIES</h2>
+        <h2 style={{color: "white", fontSize: "20px", fontWeight: "900"}}>SNEHAs COMEDY MOVIES</h2>
         <div className='trendingdiv' style={{display: "flex", overflowX: "scroll"}}>
         {
             comedyMovies.map(function(i)
