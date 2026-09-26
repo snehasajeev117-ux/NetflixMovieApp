@@ -14,7 +14,7 @@ function App() {
         <TrendingMovies/>
         <Action/>
         <Comedy/>
-        <Horror/>
+        <HorrorMovies/>
         <Romance />
         
         
