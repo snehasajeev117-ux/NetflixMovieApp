@@ -6,7 +6,7 @@ function Navbar()
 {
   return (
     <div style={{display: "flex", alignItems: "center"}}>
-        <img width="150px" height="70px" src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5.fit_scale.size_760x427.v1582751026.png"/>
+        <img width="150px" height="70px" src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5.fit_scale.size_760x427.v1582751026.png" alt="Netflix logo"/>
 
             <BrowserRouter>
                 <Link className='link'>Tv Shows</Link>

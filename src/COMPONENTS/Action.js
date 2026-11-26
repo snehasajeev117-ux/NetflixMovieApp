@@ -61,7 +61,7 @@ function Action()
                     <img style={{margin: "6px"}} onClick={function()
                     {
                         collectTheMovieName(i.title)
-                    }} height="250px" width="250px" src={"https://image.tmdb.org/t/p/original"+i.poster_path} />
+                    }} height="250px" width="250px" src={"https://image.tmdb.org/t/p/original"+i.poster_path} alt={i.title}/>
                 )
             })
         }

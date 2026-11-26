@@ -28,7 +28,7 @@ function TrendingMovies()
             myTrendingMovies.map(function(i)
             {
                 return (
-                    <img style={{margin: "6px"}} height="250px" width="250px" src={"https://image.tmdb.org/t/p/original"+i.poster_path} />
+                    <img style={{margin: "6px"}} height="250px" width="250px" src={"https://image.tmdb.org/t/p/original"+i.poster_path} alt={i.title}/>
                 )
             })
         }
